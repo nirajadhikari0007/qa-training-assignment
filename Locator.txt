@@ -11,5 +11,5 @@ XPath: //input[@id='login-button']
 CSS: #login-button
 
 4. Error message (when wrong login is attempted)
-XPath: //div[@class='error-message-container error']
-CSS: .error-message-container.error
+XPath: //h3[@data-test='error']
+CSS: h3[data-test='error']
