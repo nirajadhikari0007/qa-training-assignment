@@ -6,7 +6,7 @@ from selenium import webdriver
 def driver():
 
     # setup: start browser
-    driver = webdriver.chrome()
+    driver = webdriver.Chrome()
     driver.maximize_window()
     yield driver # <-- test runs here
     # Teardown: close browser
